@@ -1,0 +1,76 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  color : whitesmoke;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+
+.col-sm-4 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.col-sm-8 #film {
+  font-size: 40px;
+  font-family: 'McLaren', cursive;
+}
+
+.col-sm-8 #japan_title {
+  font-family: 'Kosugi', sans-serif;
+  font-size: 25px;
+}
+
+.row img {
+opacity: 1;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.row:hover img {
+opacity: .7;
+}
+
+
+
+@media (max-width: 576px) {
+  #deskripsi {
+      font-size: 40px;
+  }
+
+  .col-sm-8 {
+      text-align: center;
+  }
+
+  .col-sm-4 img {
+      max-width: 85%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      justify-self: center;
+      display: block;
+  }
+
+  .row {
+      margin-bottom: 50px;
+  }
+
+  .col-sm-8 #film1, .col-sm-8 #film2, .col-sm-8 #film3, .col-sm-8 #film4, .col-sm-8 #film5, .col-sm-8 #film6, .col-sm-8 #film7, .col-sm-8 #film8, .col-sm-8 #film9, .col-sm-8 #film10 {
+      font-size: 20px;
+      font-family: 'McLaren', cursive;
+  }
+  
+  .col-sm-8 #japan_title1, .col-sm-8 #japan_title2, .col-sm-8 #japan_title3, .col-sm-8 #japan_title4, .col-sm-8 #japan_title5,.col-sm-8 #japan_title6, .col-sm-8 #japan_title7, .col-sm-8 #japan_title8, .col-sm-8 #japan_title9, .col-sm-8 #japan_title10 {
+      font-family: 'Kosugi', sans-serif;
+      font-size: 15px;
+  }
+  
+}
