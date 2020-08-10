@@ -6,13 +6,22 @@ html,body {
 .jumbotron {
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  color : whitesmoke;
+  color : lavender;
+  margin-top: 10px;
+}
+
+.container-header {
+  padding-right: 0;
 }
 
 .row {
   margin-bottom: 20px;
 }
 
+.col-film-info {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
 
 .col-sm-4 img {
   max-width: 100%;
@@ -23,11 +32,24 @@ html,body {
 .col-sm-8 #film {
   font-size: 40px;
   font-family: 'McLaren', cursive;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: mediumslateblue;
 }
 
-.col-sm-8 #japan_title {
+.col-sm-8 #film_original_title {
   font-family: 'Kosugi', sans-serif;
   font-size: 25px;
+  margin-left: 15px;
+  color: mediumslateblue;
+}
+
+.col-sm-8 #film_rating {
+  font-family: 'Kosugi', sans-serif;
+  font-size: 25px;
+  margin-left: 12px;
+  margin-top: 15px;
+  color: lightsalmon;
 }
 
 .row img {
@@ -42,8 +64,22 @@ opacity: .7;
 
 
 @media (max-width: 576px) {
+
+  .jumbotron {
+    margin-top: 0;
+  }
+  .container-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   #deskripsi {
       font-size: 40px;
+  }
+
+  .col-film-info {
+    background-color: white;
+    border-radius: 0;
   }
 
   .col-sm-8 {
@@ -63,12 +99,17 @@ opacity: .7;
       margin-bottom: 50px;
   }
 
-  .col-sm-8 #film1, .col-sm-8 #film2, .col-sm-8 #film3, .col-sm-8 #film4, .col-sm-8 #film5, .col-sm-8 #film6, .col-sm-8 #film7, .col-sm-8 #film8, .col-sm-8 #film9, .col-sm-8 #film10 {
+  .col-sm-8 #film {
       font-size: 20px;
       font-family: 'McLaren', cursive;
   }
+
+  .col-sm-8 #film_original_title {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 15px;
+}
   
-  .col-sm-8 #japan_title1, .col-sm-8 #japan_title2, .col-sm-8 #japan_title3, .col-sm-8 #japan_title4, .col-sm-8 #japan_title5,.col-sm-8 #japan_title6, .col-sm-8 #japan_title7, .col-sm-8 #japan_title8, .col-sm-8 #japan_title9, .col-sm-8 #japan_title10 {
+  .col-sm-8 #film_rating {
       font-family: 'Kosugi', sans-serif;
       font-size: 15px;
   }

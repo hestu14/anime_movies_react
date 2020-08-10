@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './component/App.css';
 
+require('dotenv').config()
 
 
 class App extends Component {
@@ -15,8 +16,10 @@ class App extends Component {
     };
   }
 
+  // 'https://api.themoviedb.org/3/search/movie?api_key=' + process.env.DB_API_KEY + '&query=SEARCHQUERY&page=1'
+
   componentDidMount() {
-    axios.get('https://api.themoviedb.org/4/list/143529?api_key=7de13aede41e0e17a4104ffca73323da&page=1', {
+    axios.get('https://api.themoviedb.org/4/list/143529?api_key=' + process.env.DB_API_KEY + '&page=1', {
       "async": true,
       "crossDomain": true,
       "method": "GET",
@@ -39,19 +42,27 @@ class App extends Component {
       });
   }
 
+
   render() {
     const data_kolom = this.state.DataMovies.map((item, index) => {
+
       var id_title = item.title;
       var id_original_title = item.original_title;
+      var id_film_rating = item.vote_average;
+      var id_film_rating_count = item.vote_count;
+      var url_default = "https://www.themoviedb.org/movie/";
+      var id_url_movies = item.id;
       var img_default = "https://image.tmdb.org/t/p/w500/";
       var id_image = img_default+item.poster_path;
+      
       return <div className="row" key={index}>
           <div className="col-sm-4">
-            <div id="film_img" /> <img src={id_image}></img>
+            <div id="film_img" /> <img src={id_image} alt="film_poster" onClick={() => window.open(url_default + id_url_movies, "_blank")}></img>
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-8 col-film-info">
             <div id="film"> {id_title} </div>
-            <div id="japan_title"> {id_original_title} </div> 
+            <div id="film_original_title"> {id_original_title} </div>
+            <div id="film_rating"> Rating: {id_film_rating} ({id_film_rating_count} users vote) </div> 
           </div>
         </div>;
     })
@@ -61,7 +72,7 @@ class App extends Component {
 
     return (
       <div>
-        <div className="container">
+        <div className="container container-header">
           <div className="jumbotron jumbotron-fluid">
             <div className="container">
               <h1 className="display-4"><span id="deskripsi" /> {header_title} </h1>
@@ -78,8 +89,8 @@ class App extends Component {
         </div>
         <footer id="sticky-footer" className="py-4 bg-light text-white-50">
           <div className="container text-center">
-            <small>Sponsored by : <a href="https://www.themoviedb.org" target="_blank">
-              <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" height={11} />
+            <small>Sponsored by : <a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer">
+              <img alt="tmdb_logo" src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" height={11} />
             </a></small>
           </div>
         </footer>
