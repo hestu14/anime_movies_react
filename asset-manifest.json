@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anime_movies-react/static/css/main.c8627d1c.chunk.css",
-    "main.js": "/anime_movies-react/static/js/main.4de8b980.chunk.js",
-    "main.js.map": "/anime_movies-react/static/js/main.4de8b980.chunk.js.map",
-    "runtime-main.js": "/anime_movies-react/static/js/runtime-main.a4ad6cbb.js",
-    "runtime-main.js.map": "/anime_movies-react/static/js/runtime-main.a4ad6cbb.js.map",
-    "static/js/2.df50c89b.chunk.js": "/anime_movies-react/static/js/2.df50c89b.chunk.js",
-    "static/js/2.df50c89b.chunk.js.map": "/anime_movies-react/static/js/2.df50c89b.chunk.js.map",
-    "index.html": "/anime_movies-react/index.html",
-    "precache-manifest.c7e65d9d2e8ccf5aac03f0d5cef07de6.js": "/anime_movies-react/precache-manifest.c7e65d9d2e8ccf5aac03f0d5cef07de6.js",
-    "service-worker.js": "/anime_movies-react/service-worker.js",
-    "static/css/main.c8627d1c.chunk.css.map": "/anime_movies-react/static/css/main.c8627d1c.chunk.css.map",
-    "static/js/2.df50c89b.chunk.js.LICENSE.txt": "/anime_movies-react/static/js/2.df50c89b.chunk.js.LICENSE.txt"
+    "main.css": "/anime_movies_react/static/css/main.c8627d1c.chunk.css",
+    "main.js": "/anime_movies_react/static/js/main.32686cc9.chunk.js",
+    "main.js.map": "/anime_movies_react/static/js/main.32686cc9.chunk.js.map",
+    "runtime-main.js": "/anime_movies_react/static/js/runtime-main.80d288b0.js",
+    "runtime-main.js.map": "/anime_movies_react/static/js/runtime-main.80d288b0.js.map",
+    "static/js/2.cb6318a5.chunk.js": "/anime_movies_react/static/js/2.cb6318a5.chunk.js",
+    "static/js/2.cb6318a5.chunk.js.map": "/anime_movies_react/static/js/2.cb6318a5.chunk.js.map",
+    "index.html": "/anime_movies_react/index.html",
+    "precache-manifest.2727259d5ca7928d0e072cd510fde480.js": "/anime_movies_react/precache-manifest.2727259d5ca7928d0e072cd510fde480.js",
+    "service-worker.js": "/anime_movies_react/service-worker.js",
+    "static/css/main.c8627d1c.chunk.css.map": "/anime_movies_react/static/css/main.c8627d1c.chunk.css.map",
+    "static/js/2.cb6318a5.chunk.js.LICENSE.txt": "/anime_movies_react/static/js/2.cb6318a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4ad6cbb.js",
-    "static/js/2.df50c89b.chunk.js",
+    "static/js/runtime-main.80d288b0.js",
+    "static/js/2.cb6318a5.chunk.js",
     "static/css/main.c8627d1c.chunk.css",
-    "static/js/main.4de8b980.chunk.js"
+    "static/js/main.32686cc9.chunk.js"
   ]
 }
