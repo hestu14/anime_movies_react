@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hestu14.github.io/anime_movies-react/static/css/main.c8627d1c.chunk.css",
+    "main.js": "/hestu14.github.io/anime_movies-react/static/js/main.07bd941e.chunk.js",
+    "main.js.map": "/hestu14.github.io/anime_movies-react/static/js/main.07bd941e.chunk.js.map",
+    "runtime-main.js": "/hestu14.github.io/anime_movies-react/static/js/runtime-main.c64b403a.js",
+    "runtime-main.js.map": "/hestu14.github.io/anime_movies-react/static/js/runtime-main.c64b403a.js.map",
+    "static/js/2.735325f7.chunk.js": "/hestu14.github.io/anime_movies-react/static/js/2.735325f7.chunk.js",
+    "static/js/2.735325f7.chunk.js.map": "/hestu14.github.io/anime_movies-react/static/js/2.735325f7.chunk.js.map",
+    "index.html": "/hestu14.github.io/anime_movies-react/index.html",
+    "precache-manifest.10f26b9d9c6055b1da720c3e61080bf0.js": "/hestu14.github.io/anime_movies-react/precache-manifest.10f26b9d9c6055b1da720c3e61080bf0.js",
+    "service-worker.js": "/hestu14.github.io/anime_movies-react/service-worker.js",
+    "static/css/main.c8627d1c.chunk.css.map": "/hestu14.github.io/anime_movies-react/static/css/main.c8627d1c.chunk.css.map",
+    "static/js/2.735325f7.chunk.js.LICENSE.txt": "/hestu14.github.io/anime_movies-react/static/js/2.735325f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c64b403a.js",
+    "static/js/2.735325f7.chunk.js",
+    "static/css/main.c8627d1c.chunk.css",
+    "static/js/main.07bd941e.chunk.js"
+  ]
+}
